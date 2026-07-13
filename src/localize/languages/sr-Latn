@@ -1,0 +1,92 @@
+{
+  "\$schema": "../schema/schema.json",
+  "common": {
+    "name": "Meteoalarm Card",
+    "description": "Prikaz aktuelnih vremenskih upozorenja.",
+    "warning": "Upozorenje",
+    "expected": "Najavljeno",
+    "unavailable": {
+      "long": "Integracija je nedostupna",
+      "short": "Nedostupno"
+    }
+  },
+  "error": {
+    "missing_entity": "Izbor entiteta je obavezan!",
+    "invalid_integration": "Integracija nije ispravna!",
+    "invalid_scaling_mode": "Način prilagođavanja veličine nije ispravan!",
+    "entity_invalid": {
+      "single": "Integracija ne odgovara izabranom entitetu.",
+      "multiple": "Integracija ne odgovara izabranim entitetima: {entity}."
+    }
+  },
+  "editor": {
+    "entity": "Entitet",
+    "integration": "Integracija",
+    "required": "Obavezno",
+    "recommended": "Preporučeno",
+    "override_headline": "Zameni izvorni naslov",
+    "hide_when_no_warning": "Sakrij kada nema upozorenja",
+    "hide_caption": "Sakrij opis",
+    "disable_swiper": "Onemogući automatsko smenjivanje",
+    "description": {
+      "start": "Integracija kreira više entiteta.",
+      "current_expected": "Prvi za trenutna, a drugi za najavljena upozorenja.",
+      "slots": "Broj entiteta zavisi od same konfiguracije.",
+      "separate_events": "Svaki tip nepogode ima poseban entitet.",
+      "warning_watch_statement_advisory": "Dostupna su 4 nivoa: warnings, watches, statements i advisories.",
+      "end": "Dodajte ih sve kako ne biste propustili obaveštenja."
+    },
+    "error": {
+      "expected_entity": "Nedostaje entitet za najave. Budući događaji se neće prikazati.",
+      "too_many_entities": "Višak entiteta. Očekivano: {expected}, dobijeno: {got}.",
+      "duplicate": "Pronađeni su dupli entiteti u listi."
+    },
+    "scaling_mode": "Prilagođavanje veličine",
+    "scaling_mode_options": {
+      "disabled": "Onemogućeno",
+      "headline": "Samo naslov",
+      "scale": "Samo veličina",
+      "headline_and_scale": "Naslov i veličina"
+    }
+  },
+  "events": {
+    "no_warnings": "Nema upozorenja",
+    "nuclear": "nuklearna opasnost",
+    "tornado": "tornado",
+    "hurricane": "uragan",
+    "wind": "vetar",
+    "earthquake": "zemljotres",
+    "volcano": "vulkan",
+    "snow_ice": "sneg/led",
+    "fog": "magla",
+    "high_temperature": "visoka temperatura",
+    "low_temperature": "niska temperatura",
+    "coastal_event": "talasi/plima",
+    "tsunami": "cunami",
+    "sea_event": "nepogoda na moru",
+    "forest_fire": "šumski požar",
+    "avalanches": "lavine",
+    "thunderstorms": "grmljavina",
+    "rain": "kiša",
+    "flooding": "poplava",
+    "air_quality": "kvalitet vazduha",
+    "dust": "prašina"
+  },
+  "messages": {
+    "yellow": {
+      "event": "Žuti alarm: {event}",
+      "generic": "Žuti alarm",
+      "color": "Žuto"
+    },
+    "orange": {
+      "event": "Narandžasti alarm: {event}",
+      "generic": "Narandžasti alarm",
+      "color": "Narandžasto"
+    },
+    "red": {
+      "event": "Crveni alarm: {event}",
+      "generic": "Crveni alarm",
+      "color": "Crveno"
+    }
+  }
+}
