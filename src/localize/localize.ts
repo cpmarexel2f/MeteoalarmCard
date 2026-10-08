@@ -37,7 +37,7 @@ const languages: any = {
 	bg: bg,
 	ca: ca,
 	sr: sr,
-	'sr-Latn': sr_Latn,
+	"sr-Latn": sr_Latn,
 };
 export function localize(string: string): string {
 	if (string.toLocaleLowerCase() != string) {
