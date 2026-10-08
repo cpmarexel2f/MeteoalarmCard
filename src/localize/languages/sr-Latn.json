@@ -16,7 +16,7 @@
     "invalid_scaling_mode": "Način prilagođavanja veličine nije ispravan!",
     "entity_invalid": {
       "single": "Izabrana integracija ne odgovara izabranom entitetu.",
-      "multiple": "Izabrana integracija ne odgovara izabranim entitetima: {entity}."	
+      "multiple": "Izabrana integracija ne odgovara izabranim entitetima: {entity}."
     }
   },
   "editor": {
@@ -27,7 +27,7 @@
     "override_headline": "Zameni naslov koji pruža integracija",
     "hide_when_no_warning": "Sakrij kada nema upozorenja",
     "hide_caption": "Sakrij opis",
-    "disable_swiper": "Onemogući slajder za upozorenja",		
+    "disable_swiper": "Onemogući slajder za upozorenja",
     "description": {
       "start": "Izabrana integracija kreira više entiteta.",
       "current_expected": "Prvi sa trenutnim događajima, a drugi sa budućim.",
@@ -39,7 +39,7 @@
     "error": {
       "expected_entity": "Entitet za najavljena upozorenja nije naveden. Budući događaji neće biti prikazani.",
       "too_many_entities": "Navedeno je više entiteta nego što je očekivano. Očekivano entiteta: {expected}, navedeno: {got}.",
-      "duplicate": "Pronađeni su duplikati u listi entiteta."		
+      "duplicate": "Pronađeni su duplikati u listi entiteta."
     },
     "scaling_mode": "Prilagođavanje veličine",
     "scaling_mode_options": {
@@ -53,7 +53,7 @@
     "no_warnings": "Nema upozorenja",
     "nuclear": "nuklearni akcedent",
     "tornado": "tornado",
-	"hurricane": "uragan",
+    "hurricane": "uragan",
     "wind": "vetar",
     "earthquake": "zemljotres",
     "volcano": "vulkan",
